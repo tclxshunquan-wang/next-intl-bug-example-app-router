@@ -2,7 +2,7 @@
 
 ## Step
 
-a. 在 layout 中使用getLocale 获取 locale
+a. Use getLocale in layout to obtain the locale
 //const {locale} = await params;
 // TODO Caused SSG build failure
 const locale = await getLocale();
